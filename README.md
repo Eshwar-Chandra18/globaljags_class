@@ -28,4 +28,4 @@ Photos will be uploaded to a bucket where they will await processing. Processed 
 Uploading a file to a bucket will trigger a **Node.js** cloud function (lambda) that will extract the location data from the photo and generate a thumbnail image stored in a different storage bucket. Photos that do not meet the criteria of the application will be rejected and deleted.
 
 ### Firestore Database
-Location data for each valid photograph will be stored in a collection in a realtime database. Updates to this database will automatically trigger a refresh of the Google Map being displayed on the website.
+Location data for each valid photograph will be stored in a collection in a realtime database. Updates to this database will automatically trigger a refresh of the Google Map being displayed on the website.# CIT-41200-Assignment-4
