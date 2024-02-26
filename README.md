@@ -29,3 +29,4 @@ Uploading a file to a bucket will trigger a **Node.js** cloud function (lambda) 
 
 ### Firestore Database
 Location data for each valid photograph will be stored in a collection in a realtime database. Updates to this database will automatically trigger a refresh of the Google Map being displayed on the website.# CIT-41200-Assignment-4
+# CIT-41200-Assignment-4
