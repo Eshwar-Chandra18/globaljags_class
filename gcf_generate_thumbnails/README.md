@@ -9,10 +9,10 @@ This is a Google Cloud Function that will process images that were uploaded thro
 Deploy the Cloud Function with the following command. Ensure you replace the `trigger-resource` with YOUR uploads bucket.
 
 ```
-gcloud functions deploy generate_thumbnails \
+gcloud functions deploy generate_thumb_data \
 --runtime nodejs18 \
 --trigger-event google.storage.object.finalize \
---entry-point generateThumbnail \
+--entry-point generate_thumb_data \
 --trigger-resource sp24-41200-eshwar-gj-uploads
 ```
 

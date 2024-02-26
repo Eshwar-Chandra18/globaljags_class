@@ -6,7 +6,7 @@ const os = require('os');
 const sharp = require('sharp');
 
 // Entry point function
-exports.generateThumbnail = async (file, context) => {
+exports.generate_thumb_data = async (file, context) => {
   const gcsFile = file;
   const storage = new Storage();
   const sourceBucket = storage.bucket(gcsFile.bucket);
