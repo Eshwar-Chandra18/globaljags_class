@@ -10,8 +10,8 @@ exports.generateThumbnail = async (file, context) => {
   const gcsFile = file;
   const storage = new Storage();
   const sourceBucket = storage.bucket(gcsFile.bucket);
-  const thumbnailsBucket = storage.bucket('sp24-41200-elliott-gj-thumbnails');
-  const finalBucket = storage.bucket('sp24-41200-elliott-gj-final');
+  const thumbnailsBucket = storage.bucket('sp24-41200-eshwar-gj-thumbnails');
+  const finalBucket = storage.bucket('sp24-41200-eshwar-gj-final');
 
   // HINT HINT HINT
   const version = process.env.K_REVISION;
